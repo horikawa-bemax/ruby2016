@@ -27,7 +27,7 @@ while left <= right					# left > right になったら終了するループ
 		left = mid + 1				# KEY の値が、ary[mid]より大きければ、midより右半分を探索範囲とする
 	end
 	
-	puts "ary[#{mid}]=#{ary[mid]}"	# 今回の探索で比較されたaryの値を表示する
+	puts "ary[#{mid}]=#{ary[mid]} <-> #{key}"	# 今回の探索で比較されたaryの値を表示する
 end
 
 # ループ終了後の処理（結果の表示）
